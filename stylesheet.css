@@ -139,11 +139,53 @@ footer {
   border: 1px solid green;
 }
 
+.highlight,
+.highlight-title,
+.highlight-image,
+.highlight-text,
+.highlight-button,
+.highlight-sign-in {
+  margin: 10px auto 0 auto;
+}
+
 .highlight {
-  height: 80%;
+  height: 90%;
   width: 80%;
   border-radius: 20px;
   background-color: dimgray;
+}
+
+.highlight-image {
+  height: 30%;
+  width: 30%;
+  background-color: rgba(0, 0, 0, 0.7);
+  z-index: 10;
+}
+
+.highlight-title {
+  height: 15%;
+  width: 70%;
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+.highlight-text {
+  height: 30%;
+  width: 80%;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+
+.highlight-button {
+  height: 10%;
+  width: 25%;
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+
+.highlight-sign-in {
+  height: 5%;
+  width: 25%;
+  background-color: rgba(0, 0, 0, 0.5);
 }
 
 .single-space {
