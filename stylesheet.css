@@ -89,6 +89,22 @@ footer {
 
 .person-week {
   height: 400px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.person-image {
+  height: 80%;
+  background-color: yellowgreen;
+  width: 20%;
+  border: 1px solid rebeccapurple;
+}
+
+.person-text {
+  height: 80%;
+  background-color: yellowgreen;
+  width: 76%;
 }
 
 .grid {
@@ -101,11 +117,39 @@ footer {
 
 .cell {
   border: 1px solid blue;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.cell-content {
+  width: 70%;
+  height: 70%;
+  display: flex;
+}
+
+.cell-image {
+  height: 60px;
+  width: 60px;
+  background-color: red;
+}
+
+.cell-text {
+  height: 80%;
+  width: 60%;
+  background-color: red;
 }
 
 .horizontal-break {
   height: 100px;
   background-color: beige;
+}
+
+.horizontal-break > div {
+  height: 50px;
+  width: 200px;
+  background-color: hotpink;
+  margin: 0 auto;
 }
 
 .featured-book {
