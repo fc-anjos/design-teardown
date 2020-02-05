@@ -1,5 +1,5 @@
 body {
-  background-color: lavenderblush;
+  background-color: rgba(0, 0, 0, 0.1);
   padding: 0;
   margin: 0;
 }
@@ -7,7 +7,7 @@ body {
 header {
   width: 100%;
   height: 15vh;
-  background-color: mintcream;
+  background-color: rgba(0, 0, 0, 0.4);
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -23,11 +23,46 @@ footer {
 .header-content {
   width: 12%;
   height: 60%;
-  background-color: grey;
+  background-color: rgba(0, 0, 0, 0.5);
 }
 
 .red-container {
+  padding-top: 20px;
   height: 85vh;
+  background-color: rgba(0, 0, 0, 0.2);
+}
+
+.red-author {
+  height: 10%;
+  width: 50%;
+  background-color: rgba(0, 0, 0, 0.6);
+}
+
+.red-title {
+  height: 30%;
+  width: 80%;
+  margin-top: 10px;
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+.red-hashtag {
+  height: 10%;
+  width: 50%;
+  margin-top: 30px;
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+.red-arrow {
+  height: 30px;
+  width: 50px;
+  position: absolute;
+  bottom: 20px;
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+.white-container {
+  height: 600px;
+  margin: 2px solid blue;
 }
 
 .article-container {
@@ -36,21 +71,18 @@ footer {
   justify-content: space-between;
 }
 
-.article {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
 .red-post {
   height: 100%;
-  border: solid 2px red;
 }
 
 .content-block {
-  height: 60%;
+  height: 70%;
   width: 60%;
   background-color: grey;
+  padding: 30px;
+  position: relative;
+  margin: 0 auto;
+  padding-top: 15%;
 }
 
 .white-post {
@@ -58,10 +90,47 @@ footer {
   width: 100%;
 }
 
-.content-block-white {
+.white-title {
+  height: 10%;
+  width: 80%;
+  background-color: rgba(0, 0, 0, 0.8);
+  margin-top: 10px;
+}
+
+.white-date {
+  height: 5%;
+  width: 40%;
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+.white-author {
+  height: 8%;
   width: 60%;
+  margin-top: 20px;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.white-text {
   height: 60%;
+  width: 80%;
+  margin-top: 15px;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+.white-arrow {
+  height: 30px;
+  width: 50px;
+  position: absolute;
+  bottom: 20px;
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+.content-block-white {
+  width: 85%;
+  height: 70%;
   background-color: grey;
+  margin: 50px auto 0 auto;
+  padding: 20px;
 }
 
 .double-space {
@@ -79,7 +148,6 @@ footer {
 
 .single-space {
   flex-grow: 1;
-  border: 1px solid black;
 }
 
 .full-height {
