@@ -29,3 +29,30 @@ header {
 .white-post {
   height: 480px;
 }
+
+.double-space {
+  flex-grow: 2;
+  height: 480px;
+  border: 1px solid green;
+}
+
+.single-space {
+  flex-grow: 1;
+  height: 480px;
+  border: 1px solid black;
+}
+
+.latest-article {
+  height: 185px;
+
+}
+
+.pre-launch {
+  height: 1000px;
+  border: 1px solid brown;
+}
+
+.person-week {
+  height: 400px;
+
+}
