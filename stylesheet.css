@@ -6,8 +6,28 @@ body {
 
 header {
   width: 100%;
-  height: 138px;
+  height: 15vh;
   background-color: mintcream;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 5%;
+  box-sizing: border-box;
+}
+
+footer {
+  background-color: aliceblue;
+  height: 600px;
+}
+
+.header-content {
+  width: 12%;
+  height: 60%;
+  background-color: grey;
+}
+
+.red-container {
+  height: 85vh;
 }
 
 .article-container {
@@ -17,17 +37,31 @@ header {
 }
 
 .article {
-  height: 930px;
-  border: 2px solid grey;
-  flex-grow: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .red-post {
-  height: 900px;
+  height: 100%;
+  border: solid 2px red;
+}
+
+.content-block {
+  height: 60%;
+  width: 60%;
+  background-color: grey;
 }
 
 .white-post {
-  height: 480px;
+  height: 100%;
+  width: 100%;
+}
+
+.content-block-white {
+  width: 60%;
+  height: 60%;
+  background-color: grey;
 }
 
 .double-space {
@@ -36,25 +70,25 @@ header {
   border: 1px solid green;
 }
 
+.highlight {
+  height: 80%;
+  width: 80%;
+  border-radius: 20px;
+  background-color: dimgray;
+}
+
 .single-space {
   flex-grow: 1;
-  height: 480px;
   border: 1px solid black;
 }
 
-.latest-article {
-  height: 185px;
-
-}
-
-.pre-launch {
+.full-height {
   height: 1000px;
   border: 1px solid brown;
 }
 
 .person-week {
   height: 400px;
-
 }
 
 .grid {
@@ -67,4 +101,18 @@ header {
 
 .cell {
   border: 1px solid blue;
+}
+
+.horizontal-break {
+  height: 100px;
+  background-color: beige;
+}
+
+.featured-book {
+  height: 300px;
+  background-color: mistyrose;
+}
+
+.guide {
+  background-color: navajowhite;
 }
