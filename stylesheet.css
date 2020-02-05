@@ -56,3 +56,15 @@ header {
   height: 400px;
 
 }
+
+.grid {
+  display: grid;
+  height: 1000px;
+  border: 1px solid red;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+}
+
+.cell {
+  border: 1px solid blue;
+}
