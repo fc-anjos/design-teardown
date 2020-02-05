@@ -210,16 +210,29 @@ footer {
 }
 
 .person-image {
-  height: 80%;
-  background-color: yellowgreen;
+  height: 60%;
+  background-color: rgba(0, 0, 0, 0.2);
   width: 20%;
-  border: 1px solid rebeccapurple;
+  border: 1px solid black;
+  margin-left: 2%;
+}
+
+.person-wrapper {
+  height: 80%;
+  width: 76%;
+}
+
+.person-title {
+  width: 25%;
+  height: 10%;
+  background-color: rgba(0, 0, 0, 0.2);
+  margin-bottom: 2%;
 }
 
 .person-text {
-  height: 80%;
-  background-color: yellowgreen;
-  width: 76%;
+  width: 100%;
+  height: 60%;
+  background-color: rgba(0, 0, 0, 0.6);
 }
 
 .grid {
@@ -234,27 +247,50 @@ footer {
   border: 1px solid blue;
   display: flex;
   align-items: center;
-  justify-content: space-around;
 }
 
 .cell-content {
-  width: 70%;
-  height: 70%;
+  width: 90%;
+  height: 75%;
   display: flex;
+  margin: 0 auto;
 }
 
 .cell-image {
   height: 60px;
   width: 60px;
-  background-color: red;
+  background-color: rgba(0, 0, 0, 0.5);
 }
 
 .cell-text {
   height: 80%;
   width: 60%;
-  background-color: red;
+  background-color: rgba(0, 0, 0, 0.7);
 }
 
+.cell-text > .author {
+  width: 30%;
+  height: 15%;
+  background-color: rgba(255, 255, 255, 0.3);
+}
+
+
+.cell-text > .title {
+  width: 70%;
+  height: 15%;
+  background-color: rgba(255, 255, 255, 0.3);
+}
+
+
+.cell-text > .text {
+  width: 100%;
+  height: 30%;
+  background-color: rgba(255, 255, 255, 0.3);
+}
+
+.cell-text > * {
+  margin-bottom: 5%;
+}
 .horizontal-break {
   padding-top: 50px;
   height: 100px;
