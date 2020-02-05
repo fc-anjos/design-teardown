@@ -7,7 +7,7 @@ body {
 header {
   width: 100%;
   height: 15vh;
-  background-color: rgba(0, 0, 0, 0.4);
+  background-color: rgba(0, 0, 0, 0.5);
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -21,35 +21,34 @@ footer {
 }
 
 .header-content {
-  width: 12%;
-  height: 60%;
-  background-color: rgba(0, 0, 0, 0.5);
+  width: 10%;
+  height: 80%;
+  background-color: rgba(255, 255, 255, 0.8);
 }
 
 .red-container {
-  padding-top: 20px;
   height: 85vh;
-  background-color: rgba(0, 0, 0, 0.2);
+  background-color: rgba(255, 255, 255, 0.2);
 }
 
 .red-author {
   height: 10%;
   width: 50%;
-  background-color: rgba(0, 0, 0, 0.6);
+  background-color: rgba(255, 255, 255, 0.6);
 }
 
 .red-title {
   height: 30%;
   width: 80%;
   margin-top: 10px;
-  background-color: rgba(0, 0, 0, 0.8);
+  background-color: rgba(255, 255, 255, 0.8);
 }
 
 .red-hashtag {
   height: 10%;
   width: 50%;
   margin-top: 30px;
-  background-color: rgba(0, 0, 0, 0.7);
+  background-color: rgba(255, 255, 255, 0.7);
 }
 
 .red-arrow {
@@ -57,12 +56,16 @@ footer {
   width: 50px;
   position: absolute;
   bottom: 20px;
-  background-color: rgba(0, 0, 0, 0.3);
+  background-color: rgba(255, 255, 255, 0.3);
 }
 
 .white-container {
-  height: 600px;
+  height: 800px;
   margin: 2px solid blue;
+}
+
+.row {
+  height: 800px;
 }
 
 .article-container {
@@ -73,12 +76,13 @@ footer {
 
 .red-post {
   height: 100%;
+  background-color: rgba(0, 0, 0, 0.4);
 }
 
 .content-block {
   height: 70%;
   width: 60%;
-  background-color: grey;
+  /* background-color: rgba(0, 0, 0, 0.4); */
   padding: 30px;
   position: relative;
   margin: 0 auto;
@@ -127,16 +131,15 @@ footer {
 
 .content-block-white {
   width: 85%;
-  height: 70%;
+  height: 90%;
   background-color: grey;
-  margin: 50px auto 0 auto;
-  padding: 20px;
+  margin: 15px auto 0 auto;
+  padding-top: 5%;
+  padding-left: 5%;
 }
 
 .double-space {
   flex-grow: 2;
-  height: 480px;
-  border: 1px solid green;
 }
 
 .highlight,
@@ -145,51 +148,53 @@ footer {
 .highlight-text,
 .highlight-button,
 .highlight-sign-in {
-  margin: 10px auto 0 auto;
+  margin: 15px auto 0 auto;
 }
 
 .highlight {
+  padding-top: 2%;
   height: 90%;
-  width: 80%;
+  width: 95%;
   border-radius: 20px;
-  background-color: dimgray;
+  background-color: rgba(0, 0, 0, 0.8);
 }
 
 .highlight-image {
   height: 30%;
   width: 30%;
-  background-color: rgba(0, 0, 0, 0.7);
+  background-color: rgba(255, 255, 255, 0.5);
   z-index: 10;
+  margin-bottom: 5%;
 }
 
 .highlight-title {
-  height: 15%;
+  height: 10%;
   width: 70%;
-  background-color: rgba(0, 0, 0, 0.8);
+  background-color: rgba(255, 255, 255, 0.8);
 }
 
 .highlight-text {
-  height: 30%;
+  height: 25%;
   width: 80%;
-  background-color: rgba(0, 0, 0, 0.5);
+  background-color: rgba(255, 255, 255, 0.5);
 }
-
 
 .highlight-button {
   height: 10%;
-  width: 25%;
-  background-color: rgba(0, 0, 0, 0.8);
+  width: 35%;
+  background-color: rgba(255, 255, 255, 0.8);
+  margin-top: 40px;
 }
-
 
 .highlight-sign-in {
   height: 5%;
-  width: 25%;
-  background-color: rgba(0, 0, 0, 0.5);
+  width: 35%;
+  background-color: rgba(255, 255, 255, 0.5);
 }
 
 .single-space {
   flex-grow: 1;
+  box-sizing: border-box;
 }
 
 .full-height {
@@ -251,22 +256,79 @@ footer {
 }
 
 .horizontal-break {
+  padding-top: 50px;
   height: 100px;
-  background-color: beige;
 }
 
 .horizontal-break > div {
-  height: 50px;
-  width: 200px;
-  background-color: hotpink;
+  height: 30px;
+  width: 300px;
+  background-color: rgba(0, 0, 0, 0.4);
   margin: 0 auto;
+  position: relative;
+}
+
+.horizontal-break > div > div {
+  height: 5px;
+  width: 300px;
+  background-color: rgba(0, 0, 0, 0.7);
+  margin: 0 auto;
+  position: absolute;
+  bottom: 0;
 }
 
 .featured-book {
-  height: 300px;
-  background-color: mistyrose;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.3);
+  z-index: 10;
+  padding-top: 5%;
+  padding-bottom: 3%;
 }
 
-.guide {
-  background-color: navajowhite;
+.featured-book > * {
+  margin: 0 auto;
+}
+
+.featured-book > .subtitle {
+  width: 15%;
+  height: 5%;
+  background-color: rgba(255, 255, 255, 0.7);
+}
+
+.featured-book > .title-container {
+  width: 30%;
+  height: 15%;
+}
+
+.featured-book .title-w {
+  height: 40%;
+  width: 100%;
+  background-color: rgba(255, 255, 255, 0.9);
+}
+
+.featured-book .title-b {
+  height: 40%;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+.featured-book > .text {
+  width: 60%;
+  height: 10%;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+.featured-book > .button {
+  width: 20%;
+  height: 8%;
+  background-color: rgba(255, 255, 255, 0.9);
+}
+
+.featured-book > .image {
+  width: 50%;
+  height: 50%;
+  background-color: rgba(0, 0, 0, 0.5);
 }
