@@ -414,3 +414,91 @@ footer {
   bottom: 100px;
   margin-right: 100px;
 }
+
+.guide {
+  height: 70vh;
+  padding: 50px;
+}
+
+.guide > * {
+  margin-bottom: 5px;
+}
+
+.guide .subtitle {
+  width: 15%;
+  height: 5%;
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+
+.guide .title {
+  width: 80%;
+  height: 10%;
+  background-color: rgba(0, 0, 0, 0.7);
+  margin-bottom: 30px;
+}
+
+
+.guide .post {
+  width: 75%;
+  height: 5%;
+  background-color: rgba(0, 0, 0, 0.4);
+  margin-left: 25px;
+  margin-top: 20px;
+}
+
+.newsletter {
+  display: flex;
+  width: 95%;
+  background-color: rgba(0, 0, 0, 0.6);
+  margin: 0 auto;
+  justify-content: space-between;
+  flex-direction: column;
+  padding: 5%;
+}
+
+.newsletter .title {
+  width: 30%;
+  height: 5%;
+  background-color: rgba(255, 255, 255, 0.8);
+  margin: 0 auto;
+}
+
+
+.newsletter .text {
+  width: 30%;
+  height: 15%;
+  background-color: rgba(255, 255, 255, 0.6);
+  margin: 0 auto;
+}
+
+
+.newsletter .image {
+  width: 20%;
+  height: 40%;
+  background-color: rgba(255, 255, 255, 0.8);
+  margin: 0 auto;
+}
+
+.newsletter .button {
+  width: 30%;
+  height: 5%;
+  background-color: rgba(255, 255, 255, 0.8);
+  margin: 0 auto;
+}
+
+
+.newsletter .footer {
+  width: 20%;
+  height: 5%;
+  background-color: rgba(255, 255, 255, 0.8);
+  margin: 0 auto;
+}
+
+
+
+
+
+
+
+
