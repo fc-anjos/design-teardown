@@ -10,13 +10,58 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 0 5%;
+  padding: 0 2%;
   box-sizing: border-box;
 }
 
 footer {
   background-color: aliceblue;
   height: 600px;
+}
+
+.banner {
+  position: absolute;
+  left: calc(50% - 250px);
+  width: 500px;
+  height: 120px;
+  top: 23vh;
+  z-index: 1;
+}
+
+.banner1 {
+  margin: 0 auto;
+  width: 100%;
+  height: 50%;
+  background-color: white;
+}
+
+.banner2 {
+  margin: 0 auto;
+  width: 70%;
+  height: 50%;
+  background-color: white;
+}
+
+.change-colors {
+  width: 200px;
+  height: 60px;
+  background-color: rgba(255, 255, 255, 0.6);
+  right: 0;
+  margin-right: 30px;
+  margin-top: 30px;
+  border-radius: 10px;
+  position: absolute;
+}
+
+.change-colors-button {
+  width: 60px;
+  height: 60px;
+  background-color: rgba(255, 255, 255, 0.9);
+  margin-right: 10px;
+  margin-top: 30px;
+  border-radius: 10px;
+  position: absolute;
+  right: 250px;
 }
 
 .red {
@@ -35,7 +80,6 @@ footer {
   background-color: rgba(0, 0, 0, 0.63);
 }
 
-
 .header-logo {
   width: 15%;
   height: 40%;
@@ -45,7 +89,7 @@ footer {
 }
 
 .header-content {
-  width: 10%;
+  width: 12%;
   height: 80%;
   display: flex;
   flex-direction: column;
@@ -54,26 +98,23 @@ footer {
 }
 
 .header-content .image {
-  width: 30%;
+  width: 20%;
   height: 30%;
   background-color: rgba(255, 255, 255, 0.5);
+  margin-bottom: 20px;
 }
-
 
 .header-content .title {
   width: 70%;
-  height: 20%;
-  background-color: rgba(255, 255, 255, 0.8);
+  height: 22%;
+  background-color: rgba(255, 255, 255, 0.9);
 }
-
 
 .header-content .subtitle {
   width: 100%;
-  height: 20%;
+  height: 19%;
   background-color: rgba(255, 255, 255, 0.5);
 }
-
-
 
 .header-topics {
   width: 10%;
@@ -87,20 +128,20 @@ footer {
 }
 
 .red-author {
-  height: 10%;
+  height: 100px;
   width: 50%;
   background-color: rgba(255, 255, 255, 0.6);
 }
 
 .red-title {
-  height: 30%;
+  height: 300px;
   width: 80%;
   margin-top: 10px;
   background-color: rgba(255, 255, 255, 0.8);
 }
 
 .red-hashtag {
-  height: 10%;
+  height: 100px;
   width: 50%;
   margin-top: 30px;
   background-color: rgba(255, 255, 255, 0.7);
@@ -108,9 +149,8 @@ footer {
 
 .red-arrow {
   height: 30px;
+  margin-top: 30%;
   width: 50px;
-  position: absolute;
-  bottom: 20px;
   background-color: rgba(255, 255, 255, 0.3);
 }
 
@@ -130,17 +170,21 @@ footer {
 }
 
 .red-post {
-  height: 100%;
+  min-height: 700px;
+  box-sizing: border-box;
+  position: relative;
 }
 
 .content-block {
   height: 70%;
   width: 60%;
-  /* background-color: rgba(0, 0, 0, 0.4); */
+  display: flex;
+  flex-direction: column;
   padding: 30px;
   position: relative;
+  top: 20%;
   margin: 0 auto;
-  padding-top: 15%;
+  box-sizing: border-box;
 }
 
 .white-post {
@@ -212,9 +256,10 @@ footer {
 }
 
 .highlight-image {
-  height: 30%;
-  width: 30%;
+  height: 150px;
+  width: 150px;
   background-color: rgba(255, 255, 255, 0.5);
+  border: 20px solid rgba(0, 0, 0, 0.3);
   z-index: 10;
   margin-bottom: 5%;
   border-radius: 50%;
